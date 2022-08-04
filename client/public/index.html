@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,11 +25,55 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico+Mono+One&family=Pacifico:ital,wght@0,400;1,300&display=swap"
+    rel="stylesheet">
+    <script async src="https://cse.google.com/cse.js?cx=123:456"></script>
+
+    <title>Restaurants NearBy </title>
+
   </head>
   <body>
+     <section>
+        <div class="container">
+            <h1 class="brand" id="recipe">Where's My Recipes?</h1>
+            <form>
+                <input type="text" placeholder="Enter Main Ingredient And Press Enter">
+                <ion-icon name="search-outline"></ion-icon>
+            </form>
+            <div class="box" id="about-box" style = "display: none" >
+              <h1>About</h1>
+          
+            </div>          
+      <!-- History Section -->
+
+      <div class="box" id="history" style="display: none;">
+        <h1>History</h1>
+        <div class="box" id="subhistory"></div>
+      </div>
+             
+            <div class="search-result"> </div>
+            
+           <!-- test code for reference <div class="item">
+                    <img src="./Appcrown  logo 5x5.jpg" alt="">
+                    <div class="flex-container">
+                        <h1 class="title">This is a recipe item</h1>
+                        <a class="view-btn" href="#">View Recipe</a>
+                      </div>s
+                      <p class="item-data">Calories: 120</p>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+
+    <script async src="https://cse.google.com/cse.js?cx=7bae059fdbcdb5dfb"></script>
+    <div class="gcse-search"></div>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script async src="https://cse.google.com/cse.js?cx=7bae059fdbcdb5dfb"></script>
+    <!-- <div class="gcse-search"></div> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +84,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+<script src="./script.js"></script>
   </body>
 </html>
