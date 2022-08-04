@@ -20,6 +20,9 @@ Product Screenshots:
 
 ![image](https://user-images.githubusercontent.com/42953264/182738163-e0a98bbf-ce39-4baa-b8d6-d815b993ac5d.png)
 
+Connected to Heroku 
+![image](https://user-images.githubusercontent.com/42953264/182739879-7981d0dc-7215-496f-be6e-926ece1f1c48.png)
+
 
 
 # Project Requirements
